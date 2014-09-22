@@ -1,0 +1,20 @@
+{
+  "name": "kosmtik-place-search",
+  "version": "0.0.1",
+  "description": "Search for places in Kosmtik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kosmtik",
+    "openstreetmap",
+    "photon",
+    "geocoder"
+  ],
+  "author": "Yohan Boniface",
+  "license": "WTFPL",
+  "dependencies": {
+    "leaflet.photon": "^0.2.0"
+  }
+}
