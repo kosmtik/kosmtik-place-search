@@ -12,9 +12,16 @@
     "photon",
     "geocoder"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kosmtik/kosmtik-place-search.git"
+  },
   "author": "Yohan Boniface",
   "license": "WTFPL",
   "dependencies": {
     "leaflet.photon": "^0.2.0"
+  },
+  "peerDependencies": {
+    "kosmtik": "~0.0.1"
   }
 }
