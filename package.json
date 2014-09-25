@@ -1,6 +1,6 @@
 {
   "name": "kosmtik-place-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Search for places in Kosmtik",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,5 @@
   "dependencies": {
     "leaflet.photon": "^0.2.0"
   },
-  "peerDependencies": {
-    "kosmtik": "~0.0.1"
-  }
+  "kosmtik": "~0.0.2"
 }
