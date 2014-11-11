@@ -14,3 +14,6 @@
     cursor: pointer;
     color: #ecf0f1;
 }
+ul.photon-autocomplete {
+    z-index: 10000;
+}
