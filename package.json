@@ -19,7 +19,7 @@
   "author": "Yohan Boniface",
   "license": "WTFPL",
   "dependencies": {
-    "leaflet.photon": "^0.2.0"
+    "leaflet.photon": "^0.2.1"
   },
   "kosmtik": "~0.0.5"
 }
