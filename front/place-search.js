@@ -4,14 +4,14 @@ L.K.Map.addInitHook(function () {
             photon = new L.Control.Photon({placeholder: 'Search…'});
         container.appendChild(photon.onAdd(this));
         this.toolbar.addTool(container);
-        var shortcutCallback = function () {
+        var callback = function () {
             photon.input.focus();
         };
-        this.shortcuts.add({
+        this.commands.add({
             keyCode: L.K.Keys.F,
             ctrlKey: true,
-            callback: shortcutCallback,
-            description: 'Search for places'
+            callback: callback,
+            name: 'Place: search'
         });
     });
 });

@@ -3,16 +3,19 @@
     height: 32px;
     line-height: 32px;
     margin-bottom: 0;
-    width: 100px;
-    padding: 4px;
+    width: 0;
+    color: #ecf0f1;
+    background-color: #666;
+    border: none;
+    padding: 0;
 }
 .place-search .photon-input:focus {
+    padding: 4px;
     width: 300px;
 }
 .photon-autocomplete li.on {
     background-color: #2c3e50;
     cursor: pointer;
-    color: #ecf0f1;
 }
 ul.photon-autocomplete {
     z-index: 10000;
