@@ -7,4 +7,4 @@ class PlaceSearch {
     }
 }
 
-exports = { Plugin: PlaceSearch }
+exports = module.exports = { Plugin: PlaceSearch }
